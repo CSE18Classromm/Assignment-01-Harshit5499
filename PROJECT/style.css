@@ -103,8 +103,8 @@
 
 .main-container {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 1em;
+  grid-template-columns:repeat(4,1fr);
+  grid-gap: 0.5em;
   background-color: #e0e0e0;
   padding: 1em;
 }
@@ -115,11 +115,11 @@
 
 .pro1 {
   display: flex;
-  margin: 10px;
-  padding: 10px;
+  margin: 5px;
+  padding: 5px;
   font-size: 13px;
   height: max-content;
-  min-height: 18em;
+  min-height: 8em;
   flex-direction: row;
 }
 
@@ -128,8 +128,8 @@ h2 {
 }
 
 .pro1 img {
-  width: 255px;
-  height: 12em;
+  width: 100px;
+  height: 7em;
   object-fit: contain;
 }
 
@@ -291,7 +291,7 @@ footer {
 .flex-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 1em;
+  grid-gap: 0.5em;
 }
 
 .flex-container .pro1 p{
